@@ -46,7 +46,10 @@ The image below shows when the player has Blackjack and wins the game:
 
 The image below shows when the game when it is players go:
 
-![Uploading black jack image in progress.png…]()
 
+![black jack image in progress](https://user-images.githubusercontent.com/88449521/211216669-7a6ac82f-d64c-4b62-83cf-8e84338bdf7e.png)
+
+
+# I am planning to eventually add option for more players to be added to the game.
 
 
