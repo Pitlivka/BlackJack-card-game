@@ -14,7 +14,7 @@ I have included an .exe version which will work on windows OS, but it requires t
 
 OR
 
-I have included the code files which also include unit test file and background image.
+I have included the code files which also include unit test file and background image ( which is also needed to be in same directory as the blackjack.py or unit_test.py file ).
 
 The game is made in Python and for GUI, I have used Tkinter GUI.
 
