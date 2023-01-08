@@ -43,8 +43,8 @@ The image below shows when the player is bust and the dealer has won:
 The image below shows when the player has Blackjack and wins the game:
 
 ![blackjack pic blac jack win](https://user-images.githubusercontent.com/88449521/211216346-28c53609-6125-428a-a708-8e0fd30f9eef.png)
-
-The image below shows when the game when it is players go:
+**
+The image below shows when the game when it is players go:**
 
 
 ![black jack image in progress](https://user-images.githubusercontent.com/88449521/211216669-7a6ac82f-d64c-4b62-83cf-8e84338bdf7e.png)
