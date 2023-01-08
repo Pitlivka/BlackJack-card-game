@@ -32,19 +32,19 @@ The goal of each player is to beat the dealer by having the higher, unbusted han
 
 # Game images:
 
-The image below shows start gui when game is open:
+**The image below shows start gui when game is open:**
 
 ![lackjack picture starting](https://user-images.githubusercontent.com/88449521/211216256-ade91953-c975-4177-9f63-5b623e4a55cb.png)
 
-The image below shows when the player is bust and the dealer has won:
+**The image below shows when the player is bust and the dealer has won:**
 
 ![lackjackk picture player bust](https://user-images.githubusercontent.com/88449521/211216322-57a2e55c-10d7-4f3a-a5b6-3f79336705d5.png)
 
-The image below shows when the player has Blackjack and wins the game:
+**The image below shows when the player has Blackjack and wins the game:**
 
 ![blackjack pic blac jack win](https://user-images.githubusercontent.com/88449521/211216346-28c53609-6125-428a-a708-8e0fd30f9eef.png)
-**
-The image below shows when the game when it is players go:**
+
+**The image below shows when the game when it is players go:**
 
 
 ![black jack image in progress](https://user-images.githubusercontent.com/88449521/211216669-7a6ac82f-d64c-4b62-83cf-8e84338bdf7e.png)
