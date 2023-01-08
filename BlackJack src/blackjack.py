@@ -1,7 +1,7 @@
 import random
 from tkinter import *
 
-FONT_STYLE = ("Helvetica", 15, "bold")
+font_style_labels = ("Helvetica", 15, "bold")
 font_style_header = ("Helvetica", 40, "bold")
 red = "#b30000"
 black = "#000000"
@@ -13,7 +13,12 @@ light_yellow = "#eff2c6"
 light_blue = "#d2d3cb"
 
 
+
+
 class Blackjack_Layout:
+
+
+
 
     def __init__(self):
         """Init method wit window constructor TK variables (buttons,labels,background) ,
@@ -49,22 +54,22 @@ class Blackjack_Layout:
                                  command=lambda: self.call_report("generate_cards"))
         self.start_game.place(x=550, y=625, width=400, height=100)
 
-        self.player_live_score = Label(self.window, font=FONT_STYLE, borderwidth=3, relief="solid")
+        self.player_live_score = Label(self.window, font=font_style_labels, borderwidth=3, relief="solid")
         self.player_live_score.config(text='Players score ', bg=light_yellow, fg="black")
         self.player_live_score.place(x=900, y=450, width=250, height=100)
 
-        self.player_live_deck = Label(self.window, font=FONT_STYLE, borderwidth=3, relief="solid")
+        self.player_live_deck = Label(self.window, font=font_style_labels, borderwidth=3, relief="solid")
         self.player_live_deck.config(text='Players deck ', bg=light_yellow, fg="black")
         self.player_live_deck.place(x=300, y=450, width=500, height=100)
 
-        self.dealers_live_score = Label(self.window, font=FONT_STYLE, borderwidth=3, relief="solid")
+        self.dealers_live_score = Label(self.window, font=font_style_labels, borderwidth=3, relief="solid")
         self.dealers_live_score.config(text='Dealers score ', bg=light_yellow, fg="black")
         self.dealers_live_score.place(x=900, y=250, width=250, height=100)
 
-        self.dealers_live_deck = Label(self.window, font=FONT_STYLE, borderwidth=3, relief="solid")
+        self.dealers_live_deck = Label(self.window, font=font_style_labels, borderwidth=3, relief="solid")
         self.dealers_live_deck.config(text='Dealers deck ', bg=light_yellow, fg="black")
         self.dealers_live_deck.place(x=300, y=250, width=500, height=100)
-        self.inf_label = Label(self.window, font=FONT_STYLE, borderwidth=3, relief="solid")
+        self.inf_label = Label(self.window, font=font_style_labels, borderwidth=3, relief="solid")
 
     def run(self):
         self.window.mainloop()
@@ -122,7 +127,7 @@ class Blackjack(Blackjack_Layout):
             self.call_report("generate_cards")
 
         if go == "generate_cards":
-            self.inf_label = Label(self.window, font=FONT_STYLE, borderwidth=3, relief="solid")
+            self.inf_label = Label(self.window, font=font_style_labels, borderwidth=3, relief="solid")
             self.inf_label.place(x=280, y=50, width=900, height=150)
 
             self.draw = Button(self.window, text='HIT', relief="solid", font=font_style_header, bg=gray, fg=black,
