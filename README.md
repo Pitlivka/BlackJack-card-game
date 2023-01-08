@@ -1,4 +1,7 @@
+![bacground](https://user-images.githubusercontent.com/88449521/211216553-b3e7ae8a-ba57-491b-8c71-23b193f59f50.png)
 # Blackjack card game:
+
+
 
 My version of Blackjack game.
 
