@@ -44,7 +44,9 @@ The image below shows when the player has Blackjack and wins the game:
 
 ![blackjack pic blac jack win](https://user-images.githubusercontent.com/88449521/211216346-28c53609-6125-428a-a708-8e0fd30f9eef.png)
 
+The image below shows when the game when it is players go:
 
+![Uploading black jack image in progress.png…]()
 
 
 
