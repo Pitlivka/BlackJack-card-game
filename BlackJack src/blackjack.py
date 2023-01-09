@@ -80,6 +80,13 @@ class Blackjack_Layout:
 
 class Blackjack(Blackjack_Layout):
     def restart(self):
+        """Method which is called everytime player or dealer has either won lost or tied.
+           
+           The boolean variable is present to enable unit tests as they will not run if the functions I am testing call the restart method as it deletes 
+           some of the buttons which trigers missing attribute error in unit tests.
+           
+           So when unit tests are called, the tests Boolean variable is set to True.
+        """
 
         if not self.tests:
             self.draw.place_forget()
